@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forms</title>
+    <style>
+        body{
+            background-color:lightblue;
+        }
+        h1{
+            color:darkblue;
+        }
+       
+    </style>
+</head>
+<body>
+<center><h1>MTECH REGISTRATION FORM</h1></center>
+<form action="login.html">
+<label for="fname">FIRST NAME:</label><br>
+<input type="text" id="fname">
+<BR>
+<label for="Lname">LAST NAME:</label><br>
+<input type="text" id="Lname">
+<br>
+<label for="no">AGE:</label><br>
+<input type="number" id="no">
+<br>
+<h3>GENDER</H3>
+<input type="radio" id="G1" name="gender" value="ma">
+<label for="G1">MALE</label>
+<br>
+<input type="radio" id="F1" name="gender" value="fe">
+<label for="F1">FEMALE</label>
+<br>
+<input type="radio" id="branch" name="gender" value="cs">
+<label for="branch">OTHERS</label>
+<br>
+<BR>
+<label for="EMAIL">EMAIL:</label><br>
+<input type="EMAIL" id="EMAIL"><BR>
+<label for="phone">PHONE NO.:</label><br>
+<input type="text" id="phone">
+<br>
+<label for="ADDR">ADDRESS:</label><br>
+<textarea id="ADDR" name="ADDR" rows="4" cols="50"></textarea><br>
+<BR>
+<label for="browser">CURRENT QUALIFICATIONS</label><BR>
+<input list="browsers" name="browser" id="browser">
+<datalist id="browsers">
+<option>DIPLOMA</option>
+<option>BTECH</option>
+<option>OTHERS</option>
+</datalist>
+<h3>QUALIFICATION YEAR</H3>
+<select name="QUALIFICATION YEAR">
+<option value="com">2020</option>
+<option>2021</otion>
+<option>2022</otion>
+<option>2023</otion>
+<option>2024</otion>
+</select>
+<h3>CGPA</H3>
+<label for="CGPA"></label><br>
+<input type="range" id="CGPA">
+<h3>SELECT DEPARTMENT</h3>
+<input type="radio" id="branch" name="branch" value="cs">
+<label for="branch">CSD</label>
+<br>
+<input type="radio" id="branch" name="branch" value="mech">
+<label for="branch">ME</label>
+<br>
+<input type="radio" id="branch" name="branch" value="app">
+<label for="branch">AEI</label>
+<br>
+<input type="radio" id="branch" name="branch" value="civil">
+<label for="branch">CE</label>
+<br>
+<input type="radio" id="branch" name="branch" value="chem">
+<label for="branch">CH</label>
+<br>
+<input type="radio" id="branch" name="branch" value="electro">
+<label for="branch">EC</label>
+<br>
+<h3>INTERESTED COMMITTIES</h3>
+<input type="checkbox" id="com1">
+<label for="com1">IEEE</label><BR>
+<input type="checkbox" id="com2">
+<label for="com2">ISTE</label><BR>
+<input type="checkbox" id="com3">
+<label for="com3">IEDC</label><BR>
+<input type="checkbox" id="com4">
+<label for="com4">SHE</label><BR>
+<input type="checkbox" id="com5">
+<label for="com5">NSS</label>
+
+
+<BR><BR>
+<H3>UPLOAD THE CERTIFICATE</H3>
+<label for="csd"></label>
+<input type="file" id="csd">
+<br><br>
+<button type="submit">REGISTER </button>
+
+    
+    
+    
+    
+</body>
+</html>
